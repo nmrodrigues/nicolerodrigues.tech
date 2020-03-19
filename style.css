@@ -1,0 +1,67 @@
+.section {
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section h1 {
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+
+#overlay {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+.content {
+    text-align: center;
+    position: fixed;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+}
+
+
+/* header{
+    color: wheat ;
+    background: black;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 30px 0px 20px;
+} */
