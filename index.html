@@ -7,20 +7,43 @@
 </head>
 
 <body>
+
+
+    <!-- Navigation Bar
     <header>
-        <!-- Navigation Bar -->
-        <div class="container">
-            <h1 id="logo"> NR </h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+    <div class="container">
+        <h1 id="logo"> NR </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header> -->
+    <header>
+        <h1 class="logo"> NR </h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
     </header>
+    <video autoplay loop muted id="cover_video">
+        <source src="background-video.mp4" type="video/mp4">
+        </video>
+
+
+
 
     <div class="centerText">
         <!-- Intro Text -->
@@ -28,12 +51,32 @@
     </div>
 
     <!-- Background Video -->
-    <video autoplay loop muted id="cover_video">
-        <source src="background-video.mp4" type="video/mp4">
-    </video>
 
-    <div class="about">
-        <div class="about-text"> The method to the madness.</div>
+    <div class="grid-container">
+        <div class="vl"></div>
+
+        <div class="grid-item"> About Me
+            <div class="about-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <br> ipsum, dolor sit amet consectetur adipisicing elit.
+                <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+            <div class="est-text"> EST. 2000</div>
+
+        </div>
+
+
+        <div class="about-image"></div>
+
+    </div>
+
+    <div class="madness">
+        <img src="method-to-madness.png" class="madness-image">
+        <div class="madness-title"> The method to the madness.</div>
+        <div class="madness-text"> 01.Design 02.Develop 03.Deploy </div>
+
     </div>
     <div class="experience">
         <h1> Experience</h1>
