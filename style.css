@@ -409,10 +409,17 @@ nav a {
         font-size: 20px;
     }
     .contact h1 {
-        font-size: 25x;
+        color: snow;
+        opacity: 1;
+        font-size: 35x;
     }
     .contact p {
-        font-size: 15px;
+        margin-top: 15%;
+        font-size: 18px;
+    }
+    18 .project-info ul {
+        height: 100%;
+        font-size: 20px;
     }
 }
 
@@ -613,6 +620,9 @@ nav a {
     left: 51.25%;
     background-color: #282828;
 }
+
+
+/* responsive timeline */
 
 @media (max-width: 600px) {
     .point {
