@@ -270,6 +270,7 @@ nav a {
 
 .contact p {
     /* font-weight: 300; */
+    font-size: 90px;
     left: 30%;
     top: 10%;
     position: relative;
