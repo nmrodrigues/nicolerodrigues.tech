@@ -531,6 +531,11 @@ nav a {
     width: 90%;
 }
 
+.position {
+    font-style: italic;
+    opacity: 0.6;
+}
+
 .timeline ul li {
     margin-bottom: 50px;
     list-style-type: none;
